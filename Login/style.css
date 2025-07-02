@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:#EAE4D5;
+    color:#000000;
+    font-family: "Poetsen One", sans-serif;
+    font-weight:400;
+     margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input[type="text"] ,input[type="password"] {
+    outline: none;
+    border-radius: 2px;
+    background-color:#F2F2F2;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #B6B09F;
+    border-radius:3px;
+    
+}
+.log {
+    padding: 0.3rem
+}
+button {
+    background-color: #696452;
+}
+.ent {
+    padding: 5px 10px;
+    color: #000000;
+}
+.meuform {
+    transform: scale(1.4);
+
+}
+.volt {
+    padding: 5px 10px;
+    color: #000000;
+    }
+.form2 {
+    background-color: transparent;
+    }
+
+
+
+
